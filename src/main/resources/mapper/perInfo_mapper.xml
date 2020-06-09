@@ -6,6 +6,7 @@
         SELECT * FROM perinfo
     </select>
 
+
     <insert id="insertAll" parameterType="com.myweb.entity.PerInfo">
         INSERT INTO perinfo
         <trim prefix="(" suffix=")" suffixOverrides=",">
