@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.myweb.Dao.PerInfoMapper">
+    <select id="selectName" resultType="com.myweb.entity.PerInfo">
+        SELECT * FROM perinfo
+    </select>
+
+    <insert id="insertAll" parameterType="com.myweb.entity.PerInfo">
+        INSERT INTO perinfo
+        <trim prefix="(" suffix=")" suffixOverrides=",">
+            <if test="name != null">
+                name,
+            </if>
+            <if test="orginal_num != null">
+                original_num,
+            </if>
+            <if test="favourable_num != null">
+                favourable_num,
+            </if>
+            <if test="reprint_num != null">
+                reprint_num,
+            </if>
+            <if test="head_img_url != null">
+                head_img_url,
+            </if>
+            <if test="hits_num != null">
+                hits_num,
+            </if>
+            <if test="comment_num != null">
+                comment_num,
+            </if>
+            <if test="age != null">
+                age,
+            </if>
+            <if test="code_age != null">
+                code_age,
+            </if>
+            <if test="phone != null">
+                phone,
+            </if>
+        </trim>
+        <trim prefix="values (" suffix=")" suffixOverrides=",">
+            <if test="name != null">
+                #{name,jdbcType=VARCHAR},
+            </if>
+            <if test="original_num != null">
+                #{original_num,jdbcType=VARCHAR},
+            </if>
+            <if test="favourable_num != null">
+                #{favourable_num,jdbcType=VARCHAR},
+            </if>
+            <if test="reprint_num != null">
+                #{reprint_num,jdbcType=VARCHAR},
+            </if>
+            <if test="head_img_url != null">
+                #{head_img_url,jdbcType=VARCHAR},
+            </if>
+            <if test="hits_num != null">
+                #{hits_num,jdbcType=VARCHAR},
+            </if>
+            <if test="comment_num != null">
+                #{comment_num,jdbcType=VARCHAR},
+            </if>
+            <if test="age != null">
+                #{age,jdbcType=VARCHAR},
+            </if>
+            <if test="code_age != null">
+                #{code_age,jdbcType=VARCHAR},
+            </if>
+            <if test="phone != null">
+                #{phone,jdbcType=VARCHAR},
+            </if>
+        </trim>
+
+    </insert>
+
+
+</mapper>
