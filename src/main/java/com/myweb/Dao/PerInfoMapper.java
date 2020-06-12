@@ -9,7 +9,6 @@ import java.util.List;
 
 @Mapper
 @Repository
-
 public interface PerInfoMapper {
 
     List<PerInfo> selectName();
