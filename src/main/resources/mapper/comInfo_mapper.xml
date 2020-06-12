@@ -5,6 +5,43 @@
     <select id="selectall" resultType="com.myweb.entity.ComInfo">
         select * from comments
     </select>
-
+    <select id="selectOne" resultType="com.myweb.entity.ComInfo">
+        SELECT id, details, favourable, comment_time FROM comments WHERE
+        id = #{id,jdbcType=VARCHAR}
+    </select>
+    <insert id="insertall" parameterType="com.myweb.entity.ComInfo">
+        Insert INTO comments
+        <trim prefix="(" suffix=")" suffixOverrides=",">
+            <if test="details != null">
+                details,
+            </if>
+            <if test="favourable != null">
+                favourable,
+            </if>
+            <if test="comment_time != null">
+                comment_time,
+            </if>
+        </trim>
+        <trim prefix="values (" suffix=")" suffixOverrides=",">
+            <if test="details != null">
+                #{details,jdbcType=VARCHAR},
+            </if>
+            <if test="favourable != null">
+                #{favourable,jdbcType=VARCHAR},
+            </if>
+            <if test="comment_time != null">
+                #{comment_time,jdbcType=VARCHAR},
+            </if>
+        </trim>
+    </insert>
+    <update id="updateall" parameterType="com.myweb.entity.ComInfo">
+        update comments set
+           details = #{details,jdbcType=VARCHAR}
+        where id = #{id,jdbcType=VARCHAR}
+    </update>
+    <delete id="deleteall" parameterType="com.myweb.entity.ComInfo">
+        delete from comments where
+        id = #{id,jdbcType=VARCHAR}
+    </delete>
 
 </mapper>

@@ -23,6 +23,16 @@ public class ComInfo {
     //创建时间（评论时间）
     private Date comment_time;
 
+    public ComInfo() {
+    }
+
+    public ComInfo(int id, String details, int favourable, Date comment_time) {
+        this.id = id;
+        this.details = details;
+        this.favourable = favourable;
+        this.comment_time = comment_time;
+    }
+
     public int getId() {
         return id;
     }

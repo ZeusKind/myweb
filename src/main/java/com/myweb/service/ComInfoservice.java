@@ -7,4 +7,12 @@ import java.util.List;
 public interface ComInfoservice {
 
     List<ComInfo> selectall();
+
+    int insertall(ComInfo comInfo);
+
+    int updateall(ComInfo comInfo);
+
+    int deleteall(ComInfo comInfo);
+
+    ComInfo selectOne(int id);
 }
