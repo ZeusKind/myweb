@@ -15,7 +15,7 @@ import java.util.List;
 * 20200610
 * */
 @RestController
-public class CommentController {
+public class CComment {
 
     @Autowired
     ComInfoservice comInfoservice;
@@ -39,9 +39,9 @@ public class CommentController {
     }
 
     @RequestMapping("/updateallcomment")//??
-    public int updateall(@ModelAttribute ComInfo comInfo) {
-        System.out.println(comInfo);
-        return comInfoservice.updateall(comInfo);
+    public ModelAndView updateall(@ModelAttribute ComInfo comInfo) {
+        comInfoservice.updateall(comInfo);
+        return new ModelAndView("test");
     }
 
     @RequestMapping("/deleteallcomment")

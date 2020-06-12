@@ -11,7 +11,6 @@ import java.util.List;
 public interface ComInfoMapper {
 
     List<ComInfo> selectall();
-    ComInfo selectOne(int id);
     int insertall(ComInfo comInfo);
     int updateall(ComInfo comInfo);
     int deleteall(ComInfo comInfo);

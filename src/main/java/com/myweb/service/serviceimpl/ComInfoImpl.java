@@ -11,7 +11,7 @@ import org.springframework.stereotype.Service;
 import java.util.List;
 
 @Service
-public class ComInfoserviceImpl implements ComInfoservice {
+public class ComInfoImpl implements ComInfoservice {
 
     @Autowired
     ComInfoMapper comInfoMapper;
@@ -40,9 +40,6 @@ public class ComInfoserviceImpl implements ComInfoservice {
         return comInfoMapper.deleteall(comInfo);
     }
 
-    @Override
-    public ComInfo selectOne(int id) {
-        return comInfoMapper.selectOne(id);
-    }
+
 
 }
