@@ -18,7 +18,6 @@ public class ComInfoImpl implements ComInfoservice {
 
     @Override
     public List<ComInfo> selectall() {
-
         return comInfoMapper.selectall();
     }
 

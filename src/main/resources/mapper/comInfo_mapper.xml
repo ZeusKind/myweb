@@ -5,10 +5,6 @@
     <select id="selectall" resultType="com.myweb.entity.ComInfo">
         select * from comments
     </select>
-    <select id="selectOne" resultType="com.myweb.entity.ComInfo">
-        SELECT id, details, favourable, comment_time FROM comments WHERE
-        id = #{id,jdbcType=VARCHAR}
-    </select>
     <insert id="insertall" parameterType="com.myweb.entity.ComInfo">
         Insert INTO comments
         <trim prefix="(" suffix=")" suffixOverrides=",">

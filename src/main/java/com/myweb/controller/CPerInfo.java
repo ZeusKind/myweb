@@ -20,7 +20,6 @@ public class CPerInfo {
         return list;
     }
 
-
     @RequestMapping("/insert")
     public int insert(@RequestParam(value = "name" ,required = false) String name) {
         PerInfo perInfo = new PerInfo();

@@ -23,7 +23,6 @@ public class CComment {
     @RequestMapping("/selectallcomment")
     public List<ComInfo> selectall(){
         List<ComInfo> list  = comInfoservice.selectall();
-        System.out.println(list);
         return list;
     }
 
@@ -38,7 +37,7 @@ public class CComment {
         return new ModelAndView("test");
     }
 
-    @RequestMapping("/updateallcomment")//??
+    @RequestMapping("/updateallcomment")
     public ModelAndView updateall(@ModelAttribute ComInfo comInfo) {
         comInfoservice.updateall(comInfo);
         return new ModelAndView("test");
