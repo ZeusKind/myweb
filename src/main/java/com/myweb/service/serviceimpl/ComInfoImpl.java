@@ -39,6 +39,11 @@ public class ComInfoImpl implements ComInfoservice {
         return comInfoMapper.deleteall(comInfo);
     }
 
+    @Override
+    public int addfavourable(int id) {
+
+        return comInfoMapper.addfavourable(id);
+    }
 
 
 }

@@ -2,6 +2,7 @@ package com.myweb.Dao;
 
 import com.myweb.entity.ComInfo;
 import org.apache.ibatis.annotations.Mapper;
+import org.apache.ibatis.annotations.Param;
 import org.springframework.stereotype.Repository;
 
 import java.util.List;
@@ -11,7 +12,12 @@ import java.util.List;
 public interface ComInfoMapper {
 
     List<ComInfo> selectall();
+
     int insertall(ComInfo comInfo);
+
     int updateall(ComInfo comInfo);
+
     int deleteall(ComInfo comInfo);
+
+    int addfavourable(@Param("id")int id);
 }

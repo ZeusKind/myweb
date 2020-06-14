@@ -39,5 +39,7 @@
         delete from comments where
         id = #{id,jdbcType=VARCHAR}
     </delete>
-
+    <update id="addfavourable">
+        update comments set favourable  = favourable + 1  where id = #{id}
+    </update>
 </mapper>
