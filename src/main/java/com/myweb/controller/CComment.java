@@ -20,7 +20,7 @@ public class CComment {
     @Autowired
     ComInfoservice comInfoservice;
 
-    @RequestMapping("/selectallcomment")
+    @RequestMapping(value = "/selectallcomment")
     public List<ComInfo> selectall(){
         List<ComInfo> list  = comInfoservice.selectall();
         return list;
@@ -48,7 +48,12 @@ public class CComment {
         return comInfoservice.deleteall(comInfo);
     }
 
-
+    //添加一个赞
+    @RequestMapping("/addfavourable")
+    public int addfavourable(@RequestParam(value = "id")int id){
+        System.out.println(id);
+        return comInfoservice.addfavourable(id);
+    }
 
 
 }
