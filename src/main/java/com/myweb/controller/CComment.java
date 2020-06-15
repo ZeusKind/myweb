@@ -6,6 +6,8 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 import org.springframework.web.servlet.ModelAndView;
 
+import java.text.SimpleDateFormat;
+import java.util.Date;
 import java.util.List;
 
 /*
@@ -29,6 +31,8 @@ public class CComment {
     @RequestMapping("/insertallcomment")
     public ModelAndView insertall(@ModelAttribute ComInfo comInfo) {
         comInfoservice.insertall(comInfo);
+        SimpleDateFormat nowDate = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
+        System.out.println(nowDate.format(new Date()));
         return new ModelAndView("test");
     }
 
