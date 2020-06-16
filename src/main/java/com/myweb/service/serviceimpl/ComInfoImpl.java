@@ -8,6 +8,8 @@ import jdk.nashorn.internal.ir.LiteralNode;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
+import java.text.SimpleDateFormat;
+import java.util.Date;
 import java.util.List;
 
 @Service
@@ -23,7 +25,7 @@ public class ComInfoImpl implements ComInfoservice {
 
     @Override
     public int insertall(ComInfo comInfo) {
-
+        comInfo.setComment_time(new Date());
         return comInfoMapper.insertall(comInfo);
     }
 

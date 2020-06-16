@@ -28,6 +28,9 @@ public class CComment {
 
     @RequestMapping("/insertallcomment")
     public ModelAndView insertall(@ModelAttribute ComInfo comInfo) {
+        if (comInfo.getDetails() == null) {
+            return new ModelAndView("test");
+        }
         comInfoservice.insertall(comInfo);
         return new ModelAndView("test");
     }
