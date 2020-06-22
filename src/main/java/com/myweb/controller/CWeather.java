@@ -15,7 +15,7 @@ public class CWeather {
     @Autowired
     RestTemplate restTemplate;
 
-    @RequestMapping(value = "/get/{city}", method = RequestMethod.GET)
+    @RequestMapping(value = "/get/{city}")
     public String extern(@PathVariable("city")String city) {
         String apiUrl = "http://wthrcdn.etouch.cn/weather_mini?city=" + city;
 

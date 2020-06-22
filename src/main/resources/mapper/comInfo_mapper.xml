@@ -4,31 +4,10 @@
 <mapper namespace="com.myweb.Dao.ComInfoMapper">
     <select id="selectall" resultType="com.myweb.entity.ComInfo">
         select * from comments
+        order by id desc
     </select>
     <insert id="insertall" parameterType="com.myweb.entity.ComInfo">
-        Insert INTO comments
-        <trim prefix="(" suffix=")" suffixOverrides=",">
-            <if test="details != null">
-                details,
-            </if>
-            <if test="favourable != null">
-                favourable,
-            </if>
-            <if test="comment_time != null">
-                comment_time,
-            </if>
-        </trim>
-        <trim prefix="values (" suffix=")" suffixOverrides=",">
-            <if test="details != null">
-                #{details,jdbcType=VARCHAR},
-            </if>
-            <if test="favourable != null">
-                #{favourable,jdbcType=VARCHAR},
-            </if>
-            <if test="comment_time != null">
-                #{comment_time,jdbcType=VARCHAR},
-            </if>
-        </trim>
+        Insert INTO comments (username,details) value (#{username},#{details})
     </insert>
     <update id="updateall" parameterType="com.myweb.entity.ComInfo">
         update comments set
