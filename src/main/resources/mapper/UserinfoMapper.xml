@@ -214,4 +214,9 @@
     where u.user_name = #{userName,jdbcType=VARCHAR}
       and u.password = #{password,jdbcType=VARCHAR}
   </select>
+  <select id="checkUserNameExist" parameterType="com.myweb.entity.Userinfo" resultType="java.lang.Integer">
+    select count(*)
+    from userinfo u
+    where u.user_name = #{userName,jdbcType=VARCHAR}
+  </select>
 </mapper>

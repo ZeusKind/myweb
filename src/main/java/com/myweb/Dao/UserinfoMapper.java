@@ -34,4 +34,7 @@ public interface UserinfoMapper {
     int updateByPrimaryKey(Userinfo record);
 
     int userLogin(@Param("userName") String userName, @Param("password") String password);
+
+    int checkUserNameExist(@Param("userName") String userName);
+
 }

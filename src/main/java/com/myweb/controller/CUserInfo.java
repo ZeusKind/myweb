@@ -1,5 +1,8 @@
 package com.myweb.controller;
 
+import com.myweb.common.RequestData;
+import com.myweb.common.ResponseData;
+import com.myweb.common.utils.WebBeanCreator;
 import com.myweb.entity.Userinfo;
 import com.myweb.service.Userinfoservice;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -15,12 +18,16 @@ public class CUserInfo {
     Userinfoservice userinfoservice;
 
     @RequestMapping("/login")
-//    public String userLogin(@RequestBody Userinfo userinfo){
-    public String userLogin(@RequestParam(value = "userName")String userName,
-                            @RequestParam(value = "password")String password){
+    public ResponseData userLogin(@RequestBody RequestData param){
+        Userinfo userinfo = (Userinfo) WebBeanCreator.create(Userinfo.class, param.getData());
+        return ResponseData.ok(userinfoservice.userLogin(userinfo));
+    }
+
+    @RequestMapping("/login2")
+    public ResponseData userLogin(@RequestParam(value = "userName")String userName, @RequestParam(value = "password")String password){
         Userinfo userinfo = new Userinfo();
         userinfo.setUserName(userName);
         userinfo.setPassword(password);
-        return userinfoservice.userLogin(userinfo);
+        return ResponseData.ok(userinfoservice.userLogin(userinfo));
     }
 }
