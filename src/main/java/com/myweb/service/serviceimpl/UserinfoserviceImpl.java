@@ -29,7 +29,7 @@ public class UserinfoserviceImpl implements Userinfoservice {
         int result = userinfoMapper.userLogin(userName,password);
 
         if (result == 1){
-            return "登录成功（已跳转）";
+            return "登录成功";
         }else {
             return "密码错误，请重试";
         }

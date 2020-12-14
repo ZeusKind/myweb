@@ -70,4 +70,22 @@ public class ResponseData<T> implements Serializable {
 	public static ResponseData fail(String code, String message, Object data) {
 		return new ResponseData(code, message, data);
 	}
+
+	public static ResponseData loginStatus(String message) {
+		String code = "";
+		if (message.equals("用户名为空，请重新输入")){
+			code = ResultCodeConstant.LOGIN_USER_MISS;
+		}else if (message.equals("密码为空，请重新输入")){
+			code = ResultCodeConstant.LOGIN_PSW_MISS;
+		}else if (message.equals("没有该用户,请检查用户名是否输入错误")){
+			code = ResultCodeConstant.LOGIN_USER_NOT_EXIST;
+		} else if (message.equals("登录成功")) {
+			code = ResultCodeConstant.LOGIN_SUCCESS;
+		}else {
+			code = ResultCodeConstant.LOGIN_FAIL;
+		}
+
+		return new ResponseData(code,message);
+	}
+
 }
