@@ -5,14 +5,19 @@ import com.myweb.common.ResponseData;
 import com.myweb.common.utils.WebBeanCreator;
 import com.myweb.entity.Userinfo;
 import com.myweb.service.Userinfoservice;
+import lombok.extern.slf4j.Slf4j;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
+@Slf4j
 @RestController
 public class CUserInfo {
+    private static final Logger logger = LoggerFactory.getLogger(CUserInfo.class);
 
     @Autowired
     Userinfoservice userinfoservice;
@@ -20,6 +25,9 @@ public class CUserInfo {
     @RequestMapping("/login")
     public ResponseData userLogin(@RequestBody RequestData param){
         Userinfo userinfo = (Userinfo) WebBeanCreator.create(Userinfo.class, param.getData());
+        logger.info("123");
+        logger.error("456");
+        logger.warn("789");
         return ResponseData.ok(userinfoservice.userLogin(userinfo));
     }
 
