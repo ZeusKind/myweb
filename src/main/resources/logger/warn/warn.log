@@ -1,1 +1,45 @@
-2020-12-15 10:07:57  [ http-nio-8090-exec-1:37955 ] - [ WARN ]  Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+2020-12-18 11:04:06  [ http-nio-8090-exec-2:32037 ] - [ ERROR ]  456
+2020-12-18 11:04:06  [ http-nio-8090-exec-2:32046 ] - [ WARN ]  789
+2020-12-18 11:04:06  [ http-nio-8090-exec-2:32060 ] - [ WARN ]  Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+2020-12-18 11:04:32  [ http-nio-8090-exec-4:58213 ] - [ ERROR ]  456
+2020-12-18 11:04:32  [ http-nio-8090-exec-4:58213 ] - [ WARN ]  789
+2020-12-18 11:05:21  [ http-nio-8090-exec-6:107399 ] - [ ERROR ]  456
+2020-12-18 11:05:21  [ http-nio-8090-exec-6:107399 ] - [ WARN ]  789
+2020-12-18 11:05:37  [ http-nio-8090-exec-8:122888 ] - [ ERROR ]  456
+2020-12-18 11:05:37  [ http-nio-8090-exec-8:122888 ] - [ WARN ]  789
+2020-12-18 11:05:41  [ http-nio-8090-exec-9:126914 ] - [ ERROR ]  456
+2020-12-18 11:05:41  [ http-nio-8090-exec-9:126914 ] - [ WARN ]  789
+2020-12-18 11:09:14  [ http-nio-8090-exec-2:340496 ] - [ ERROR ]  456
+2020-12-18 11:09:14  [ http-nio-8090-exec-2:340496 ] - [ WARN ]  789
+2020-12-18 11:09:20  [ http-nio-8090-exec-4:346248 ] - [ ERROR ]  456
+2020-12-18 11:09:20  [ http-nio-8090-exec-4:346249 ] - [ WARN ]  789
+2020-12-18 11:09:50  [ http-nio-8090-exec-6:375960 ] - [ ERROR ]  456
+2020-12-18 11:09:50  [ http-nio-8090-exec-6:375960 ] - [ WARN ]  789
+2020-12-18 11:10:36  [ http-nio-8090-exec-8:422534 ] - [ ERROR ]  456
+2020-12-18 11:10:36  [ http-nio-8090-exec-8:422535 ] - [ WARN ]  789
+2020-12-18 11:13:29  [ http-nio-8090-exec-8:595046 ] - [ ERROR ]  456
+2020-12-18 11:13:29  [ http-nio-8090-exec-8:595046 ] - [ WARN ]  789
+2020-12-18 11:16:31  [ http-nio-8090-exec-1:777846 ] - [ ERROR ]  456
+2020-12-18 11:16:31  [ http-nio-8090-exec-1:777847 ] - [ WARN ]  789
+2020-12-18 11:30:08  [ http-nio-8090-exec-4:1593868 ] - [ ERROR ]  456
+2020-12-18 11:30:08  [ http-nio-8090-exec-4:1593868 ] - [ WARN ]  789
+2020-12-18 13:09:14  [ HikariPool-1 housekeeper:7540108 ] - [ WARN ]  HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h8m7s642ms468µs300ns).
+2020-12-18 13:13:25  [ http-nio-8090-exec-7:7791361 ] - [ ERROR ]  456
+2020-12-18 13:13:25  [ http-nio-8090-exec-7:7791361 ] - [ WARN ]  789
+2020-12-18 14:06:27  [ http-nio-8090-exec-7:10973051 ] - [ ERROR ]  456
+2020-12-18 14:06:27  [ http-nio-8090-exec-7:10973051 ] - [ WARN ]  789
+2020-12-18 14:06:58  [ http-nio-8090-exec-8:11004679 ] - [ ERROR ]  456
+2020-12-18 14:06:58  [ http-nio-8090-exec-8:11004679 ] - [ WARN ]  789
+2020-12-18 14:07:51  [ http-nio-8090-exec-3:11057095 ] - [ ERROR ]  456
+2020-12-18 14:07:51  [ http-nio-8090-exec-3:11057095 ] - [ WARN ]  789
+2020-12-18 14:08:31  [ http-nio-8090-exec-6:11097100 ] - [ ERROR ]  456
+2020-12-18 14:08:31  [ http-nio-8090-exec-6:11097100 ] - [ WARN ]  789
+2020-12-18 14:09:42  [ http-nio-8090-exec-9:11168812 ] - [ ERROR ]  456
+2020-12-18 14:09:42  [ http-nio-8090-exec-9:11168812 ] - [ WARN ]  789
+2020-12-18 14:27:28  [ http-nio-8090-exec-9:12234505 ] - [ ERROR ]  456
+2020-12-18 14:27:28  [ http-nio-8090-exec-9:12234505 ] - [ WARN ]  789
+2020-12-18 15:58:41  [ http-nio-8090-exec-1:17707565 ] - [ ERROR ]  456
+2020-12-18 15:58:41  [ http-nio-8090-exec-1:17707565 ] - [ WARN ]  789
+2020-12-18 15:59:46  [ http-nio-8090-exec-4:17772032 ] - [ ERROR ]  456
+2020-12-18 15:59:46  [ http-nio-8090-exec-4:17772032 ] - [ WARN ]  789
+2020-12-18 16:20:11  [ http-nio-8090-exec-3:55964 ] - [ WARN ]  Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.

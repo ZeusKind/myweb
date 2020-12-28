@@ -1,0 +1,20 @@
+2020-12-15 10:05:14  [ main:145 ] - [ INFO ]  Starting MywebApplication on DESKTOP-IAT2ORE with PID 21968 (D:\GitHubDesktop\doucments\myweb\target\classes started by MuMu in D:\GitHubDesktop\doucments\myweb)
+2020-12-15 10:05:14  [ main:146 ] - [ INFO ]  No active profile set, falling back to default profiles: default
+2020-12-15 10:05:15  [ main:1017 ] - [ INFO ]  Tomcat initialized with port(s): 8090 (http)
+2020-12-15 10:05:16  [ main:1419 ] - [ INFO ]  Root WebApplicationContext: initialization completed in 1246 ms
+2020-12-15 10:05:16  [ main:2172 ] - [ INFO ]  Initializing ExecutorService 'applicationTaskExecutor'
+2020-12-15 10:05:17  [ main:2407 ] - [ INFO ]  Tomcat started on port(s): 8090 (http) with context path ''
+2020-12-15 10:05:17  [ main:2424 ] - [ INFO ]  Started MywebApplication in 2.489 seconds (JVM running for 4.126)
+2020-12-15 10:07:19  [ main:0 ] - [ INFO ]  Starting MywebApplication on DESKTOP-IAT2ORE with PID 19956 (D:\GitHubDesktop\doucments\myweb\target\classes started by MuMu in D:\GitHubDesktop\doucments\myweb)
+2020-12-15 10:07:19  [ main:2 ] - [ INFO ]  No active profile set, falling back to default profiles: default
+2020-12-15 10:07:20  [ main:663 ] - [ INFO ]  Tomcat initialized with port(s): 8090 (http)
+2020-12-15 10:07:20  [ main:1007 ] - [ INFO ]  Root WebApplicationContext: initialization completed in 984 ms
+2020-12-15 10:07:21  [ main:1689 ] - [ INFO ]  Initializing ExecutorService 'applicationTaskExecutor'
+2020-12-15 10:07:21  [ main:1901 ] - [ INFO ]  Tomcat started on port(s): 8090 (http) with context path ''
+2020-12-15 10:07:21  [ main:1908 ] - [ INFO ]  Started MywebApplication in 2.089 seconds (JVM running for 3.724)
+2020-12-15 10:07:57  [ http-nio-8090-exec-2:37908 ] - [ INFO ]  Initializing Servlet 'dispatcherServlet'
+2020-12-15 10:07:57  [ http-nio-8090-exec-2:37912 ] - [ INFO ]  Completed initialization in 4 ms
+2020-12-15 10:07:57  [ http-nio-8090-exec-1:37953 ] - [ INFO ]  HikariPool-1 - Starting...
+2020-12-15 10:07:57  [ http-nio-8090-exec-1:37955 ] - [ WARN ]  Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+2020-12-15 10:07:57  [ http-nio-8090-exec-1:38161 ] - [ INFO ]  HikariPool-1 - Start completed.
+2020-12-15 13:12:40  [ HikariPool-1 housekeeper:11121298 ] - [ WARN ]  HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h9m12s709ms867µs200ns).

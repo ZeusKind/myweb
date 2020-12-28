@@ -1,19 +1,98 @@
-2020-12-15 10:05:14  [ main:145 ] - [ INFO ]  Starting MywebApplication on DESKTOP-IAT2ORE with PID 21968 (D:\GitHubDesktop\doucments\myweb\target\classes started by MuMu in D:\GitHubDesktop\doucments\myweb)
-2020-12-15 10:05:14  [ main:146 ] - [ INFO ]  No active profile set, falling back to default profiles: default
-2020-12-15 10:05:15  [ main:1017 ] - [ INFO ]  Tomcat initialized with port(s): 8090 (http)
-2020-12-15 10:05:16  [ main:1419 ] - [ INFO ]  Root WebApplicationContext: initialization completed in 1246 ms
-2020-12-15 10:05:16  [ main:2172 ] - [ INFO ]  Initializing ExecutorService 'applicationTaskExecutor'
-2020-12-15 10:05:17  [ main:2407 ] - [ INFO ]  Tomcat started on port(s): 8090 (http) with context path ''
-2020-12-15 10:05:17  [ main:2424 ] - [ INFO ]  Started MywebApplication in 2.489 seconds (JVM running for 4.126)
-2020-12-15 10:07:19  [ main:0 ] - [ INFO ]  Starting MywebApplication on DESKTOP-IAT2ORE with PID 19956 (D:\GitHubDesktop\doucments\myweb\target\classes started by MuMu in D:\GitHubDesktop\doucments\myweb)
-2020-12-15 10:07:19  [ main:2 ] - [ INFO ]  No active profile set, falling back to default profiles: default
-2020-12-15 10:07:20  [ main:663 ] - [ INFO ]  Tomcat initialized with port(s): 8090 (http)
-2020-12-15 10:07:20  [ main:1007 ] - [ INFO ]  Root WebApplicationContext: initialization completed in 984 ms
-2020-12-15 10:07:21  [ main:1689 ] - [ INFO ]  Initializing ExecutorService 'applicationTaskExecutor'
-2020-12-15 10:07:21  [ main:1901 ] - [ INFO ]  Tomcat started on port(s): 8090 (http) with context path ''
-2020-12-15 10:07:21  [ main:1908 ] - [ INFO ]  Started MywebApplication in 2.089 seconds (JVM running for 3.724)
-2020-12-15 10:07:57  [ http-nio-8090-exec-2:37908 ] - [ INFO ]  Initializing Servlet 'dispatcherServlet'
-2020-12-15 10:07:57  [ http-nio-8090-exec-2:37912 ] - [ INFO ]  Completed initialization in 4 ms
-2020-12-15 10:07:57  [ http-nio-8090-exec-1:37953 ] - [ INFO ]  HikariPool-1 - Starting...
-2020-12-15 10:07:57  [ http-nio-8090-exec-1:37955 ] - [ WARN ]  Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
-2020-12-15 10:07:57  [ http-nio-8090-exec-1:38161 ] - [ INFO ]  HikariPool-1 - Start completed.
+2020-12-18 11:03:34  [ main:0 ] - [ INFO ]  Starting MywebApplication on DESKTOP-IAT2ORE with PID 12108 (D:\GitHubDesktop\doucments\myweb\target\classes started by MuMu in D:\GitHubDesktop\doucments\myweb)
+2020-12-18 11:03:34  [ main:9 ] - [ INFO ]  No active profile set, falling back to default profiles: default
+2020-12-18 11:03:34  [ main:840 ] - [ INFO ]  Tomcat initialized with port(s): 8090 (http)
+2020-12-18 11:03:35  [ main:1110 ] - [ INFO ]  Root WebApplicationContext: initialization completed in 1074 ms
+2020-12-18 11:03:35  [ main:1824 ] - [ INFO ]  Initializing ExecutorService 'applicationTaskExecutor'
+2020-12-18 11:03:36  [ main:2035 ] - [ INFO ]  Tomcat started on port(s): 8090 (http) with context path ''
+2020-12-18 11:03:36  [ main:2043 ] - [ INFO ]  Started MywebApplication in 2.29 seconds (JVM running for 3.718)
+2020-12-18 11:04:06  [ http-nio-8090-exec-1:31940 ] - [ INFO ]  Initializing Servlet 'dispatcherServlet'
+2020-12-18 11:04:06  [ http-nio-8090-exec-1:31943 ] - [ INFO ]  Completed initialization in 3 ms
+2020-12-18 11:04:06  [ http-nio-8090-exec-2:32037 ] - [ INFO ]  123
+2020-12-18 11:04:06  [ http-nio-8090-exec-2:32037 ] - [ ERROR ]  456
+2020-12-18 11:04:06  [ http-nio-8090-exec-2:32046 ] - [ WARN ]  789
+2020-12-18 11:04:06  [ http-nio-8090-exec-2:32059 ] - [ INFO ]  HikariPool-1 - Starting...
+2020-12-18 11:04:06  [ http-nio-8090-exec-2:32060 ] - [ WARN ]  Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+2020-12-18 11:04:06  [ http-nio-8090-exec-2:32218 ] - [ INFO ]  HikariPool-1 - Start completed.
+2020-12-18 11:04:32  [ http-nio-8090-exec-4:58212 ] - [ INFO ]  123
+2020-12-18 11:04:32  [ http-nio-8090-exec-4:58213 ] - [ ERROR ]  456
+2020-12-18 11:04:32  [ http-nio-8090-exec-4:58213 ] - [ WARN ]  789
+2020-12-18 11:05:21  [ http-nio-8090-exec-6:107398 ] - [ INFO ]  123
+2020-12-18 11:05:21  [ http-nio-8090-exec-6:107399 ] - [ ERROR ]  456
+2020-12-18 11:05:21  [ http-nio-8090-exec-6:107399 ] - [ WARN ]  789
+2020-12-18 11:05:37  [ http-nio-8090-exec-8:122887 ] - [ INFO ]  123
+2020-12-18 11:05:37  [ http-nio-8090-exec-8:122888 ] - [ ERROR ]  456
+2020-12-18 11:05:37  [ http-nio-8090-exec-8:122888 ] - [ WARN ]  789
+2020-12-18 11:05:41  [ http-nio-8090-exec-9:126914 ] - [ INFO ]  123
+2020-12-18 11:05:41  [ http-nio-8090-exec-9:126914 ] - [ ERROR ]  456
+2020-12-18 11:05:41  [ http-nio-8090-exec-9:126914 ] - [ WARN ]  789
+2020-12-18 11:09:14  [ http-nio-8090-exec-2:340496 ] - [ INFO ]  123
+2020-12-18 11:09:14  [ http-nio-8090-exec-2:340496 ] - [ ERROR ]  456
+2020-12-18 11:09:14  [ http-nio-8090-exec-2:340496 ] - [ WARN ]  789
+2020-12-18 11:09:20  [ http-nio-8090-exec-4:346248 ] - [ INFO ]  123
+2020-12-18 11:09:20  [ http-nio-8090-exec-4:346248 ] - [ ERROR ]  456
+2020-12-18 11:09:20  [ http-nio-8090-exec-4:346249 ] - [ WARN ]  789
+2020-12-18 11:09:50  [ http-nio-8090-exec-6:375960 ] - [ INFO ]  123
+2020-12-18 11:09:50  [ http-nio-8090-exec-6:375960 ] - [ ERROR ]  456
+2020-12-18 11:09:50  [ http-nio-8090-exec-6:375960 ] - [ WARN ]  789
+2020-12-18 11:10:36  [ http-nio-8090-exec-8:422534 ] - [ INFO ]  123
+2020-12-18 11:10:36  [ http-nio-8090-exec-8:422534 ] - [ ERROR ]  456
+2020-12-18 11:10:36  [ http-nio-8090-exec-8:422535 ] - [ WARN ]  789
+2020-12-18 11:13:29  [ http-nio-8090-exec-8:595046 ] - [ INFO ]  123
+2020-12-18 11:13:29  [ http-nio-8090-exec-8:595046 ] - [ ERROR ]  456
+2020-12-18 11:13:29  [ http-nio-8090-exec-8:595046 ] - [ WARN ]  789
+2020-12-18 11:16:31  [ http-nio-8090-exec-1:777846 ] - [ INFO ]  123
+2020-12-18 11:16:31  [ http-nio-8090-exec-1:777846 ] - [ ERROR ]  456
+2020-12-18 11:16:31  [ http-nio-8090-exec-1:777847 ] - [ WARN ]  789
+2020-12-18 11:30:08  [ http-nio-8090-exec-4:1593868 ] - [ INFO ]  123
+2020-12-18 11:30:08  [ http-nio-8090-exec-4:1593868 ] - [ ERROR ]  456
+2020-12-18 11:30:08  [ http-nio-8090-exec-4:1593868 ] - [ WARN ]  789
+2020-12-18 13:09:14  [ HikariPool-1 housekeeper:7540108 ] - [ WARN ]  HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h8m7s642ms468µs300ns).
+2020-12-18 13:13:25  [ http-nio-8090-exec-7:7791361 ] - [ INFO ]  123
+2020-12-18 13:13:25  [ http-nio-8090-exec-7:7791361 ] - [ ERROR ]  456
+2020-12-18 13:13:25  [ http-nio-8090-exec-7:7791361 ] - [ WARN ]  789
+2020-12-18 14:06:27  [ http-nio-8090-exec-7:10973049 ] - [ INFO ]  123
+2020-12-18 14:06:27  [ http-nio-8090-exec-7:10973051 ] - [ ERROR ]  456
+2020-12-18 14:06:27  [ http-nio-8090-exec-7:10973051 ] - [ WARN ]  789
+2020-12-18 14:06:58  [ http-nio-8090-exec-8:11004678 ] - [ INFO ]  123
+2020-12-18 14:06:58  [ http-nio-8090-exec-8:11004679 ] - [ ERROR ]  456
+2020-12-18 14:06:58  [ http-nio-8090-exec-8:11004679 ] - [ WARN ]  789
+2020-12-18 14:07:51  [ http-nio-8090-exec-3:11057094 ] - [ INFO ]  123
+2020-12-18 14:07:51  [ http-nio-8090-exec-3:11057095 ] - [ ERROR ]  456
+2020-12-18 14:07:51  [ http-nio-8090-exec-3:11057095 ] - [ WARN ]  789
+2020-12-18 14:08:31  [ http-nio-8090-exec-6:11097100 ] - [ INFO ]  123
+2020-12-18 14:08:31  [ http-nio-8090-exec-6:11097100 ] - [ ERROR ]  456
+2020-12-18 14:08:31  [ http-nio-8090-exec-6:11097100 ] - [ WARN ]  789
+2020-12-18 14:09:42  [ http-nio-8090-exec-9:11168812 ] - [ INFO ]  123
+2020-12-18 14:09:42  [ http-nio-8090-exec-9:11168812 ] - [ ERROR ]  456
+2020-12-18 14:09:42  [ http-nio-8090-exec-9:11168812 ] - [ WARN ]  789
+2020-12-18 14:27:28  [ http-nio-8090-exec-9:12234505 ] - [ INFO ]  123
+2020-12-18 14:27:28  [ http-nio-8090-exec-9:12234505 ] - [ ERROR ]  456
+2020-12-18 14:27:28  [ http-nio-8090-exec-9:12234505 ] - [ WARN ]  789
+2020-12-18 15:58:41  [ http-nio-8090-exec-1:17707562 ] - [ INFO ]  123
+2020-12-18 15:58:41  [ http-nio-8090-exec-1:17707565 ] - [ ERROR ]  456
+2020-12-18 15:58:41  [ http-nio-8090-exec-1:17707565 ] - [ WARN ]  789
+2020-12-18 15:59:46  [ http-nio-8090-exec-4:17772032 ] - [ INFO ]  123
+2020-12-18 15:59:46  [ http-nio-8090-exec-4:17772032 ] - [ ERROR ]  456
+2020-12-18 15:59:46  [ http-nio-8090-exec-4:17772032 ] - [ WARN ]  789
+2020-12-18 16:18:48  [ main:0 ] - [ INFO ]  Starting MywebApplication on DESKTOP-IAT2ORE with PID 21384 (D:\GitHubDesktop\doucments\myweb\target\classes started by MuMu in D:\GitHubDesktop\doucments\myweb)
+2020-12-18 16:18:48  [ main:2 ] - [ INFO ]  No active profile set, falling back to default profiles: default
+2020-12-18 16:18:49  [ main:658 ] - [ INFO ]  Tomcat initialized with port(s): 8090 (http)
+2020-12-18 16:18:49  [ main:951 ] - [ INFO ]  Root WebApplicationContext: initialization completed in 920 ms
+2020-12-18 16:18:50  [ main:1600 ] - [ INFO ]  Initializing ExecutorService 'applicationTaskExecutor'
+2020-12-18 16:18:50  [ main:1793 ] - [ INFO ]  Tomcat started on port(s): 8090 (http) with context path ''
+2020-12-18 16:18:50  [ main:1800 ] - [ INFO ]  Started MywebApplication in 1.98 seconds (JVM running for 3.224)
+2020-12-18 16:19:15  [ main:0 ] - [ INFO ]  Starting MywebApplication on DESKTOP-IAT2ORE with PID 4892 (D:\GitHubDesktop\doucments\myweb\target\classes started by MuMu in D:\GitHubDesktop\doucments\myweb)
+2020-12-18 16:19:15  [ main:2 ] - [ INFO ]  No active profile set, falling back to default profiles: default
+2020-12-18 16:19:16  [ main:762 ] - [ INFO ]  Tomcat initialized with port(s): 8090 (http)
+2020-12-18 16:19:16  [ main:1047 ] - [ INFO ]  Root WebApplicationContext: initialization completed in 1015 ms
+2020-12-18 16:19:17  [ main:1731 ] - [ INFO ]  Initializing ExecutorService 'applicationTaskExecutor'
+2020-12-18 16:19:17  [ main:1951 ] - [ INFO ]  Tomcat started on port(s): 8090 (http) with context path ''
+2020-12-18 16:19:17  [ main:1958 ] - [ INFO ]  Started MywebApplication in 2.175 seconds (JVM running for 3.64)
+2020-12-18 16:20:11  [ http-nio-8090-exec-1:55911 ] - [ INFO ]  Initializing Servlet 'dispatcherServlet'
+2020-12-18 16:20:11  [ http-nio-8090-exec-1:55915 ] - [ INFO ]  Completed initialization in 4 ms
+2020-12-18 16:20:11  [ http-nio-8090-exec-3:55963 ] - [ INFO ]  HikariPool-1 - Starting...
+2020-12-18 16:20:11  [ http-nio-8090-exec-3:55964 ] - [ WARN ]  Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+2020-12-18 16:20:11  [ http-nio-8090-exec-3:56150 ] - [ INFO ]  HikariPool-1 - Start completed.
+2020-12-18 17:24:43  [ SpringContextShutdownHook:3928515 ] - [ INFO ]  Shutting down ExecutorService 'applicationTaskExecutor'
+2020-12-18 17:24:43  [ SpringContextShutdownHook:3928517 ] - [ INFO ]  HikariPool-1 - Shutdown initiated...
+2020-12-18 17:24:43  [ SpringContextShutdownHook:3928522 ] - [ INFO ]  HikariPool-1 - Shutdown completed.

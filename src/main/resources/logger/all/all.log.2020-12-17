@@ -1,0 +1,13 @@
+2020-12-17 16:00:14  [ main:0 ] - [ INFO ]  Starting MywebApplication on DESKTOP-IAT2ORE with PID 23196 (D:\GitHubDesktop\doucments\myweb\target\classes started by MuMu in D:\GitHubDesktop\doucments\myweb)
+2020-12-17 16:00:14  [ main:32 ] - [ INFO ]  No active profile set, falling back to default profiles: default
+2020-12-17 16:00:15  [ main:894 ] - [ INFO ]  Tomcat initialized with port(s): 8090 (http)
+2020-12-17 16:00:15  [ main:1201 ] - [ INFO ]  Root WebApplicationContext: initialization completed in 1144 ms
+2020-12-17 16:00:16  [ main:1969 ] - [ INFO ]  Initializing ExecutorService 'applicationTaskExecutor'
+2020-12-17 16:00:16  [ main:2210 ] - [ INFO ]  Tomcat started on port(s): 8090 (http) with context path ''
+2020-12-17 16:00:16  [ main:2221 ] - [ INFO ]  Started MywebApplication in 2.449 seconds (JVM running for 4.012)
+2020-12-17 16:02:39  [ http-nio-8090-exec-2:145299 ] - [ INFO ]  Initializing Servlet 'dispatcherServlet'
+2020-12-17 16:02:39  [ http-nio-8090-exec-2:145303 ] - [ INFO ]  Completed initialization in 3 ms
+2020-12-17 16:02:39  [ http-nio-8090-exec-1:145340 ] - [ INFO ]  HikariPool-1 - Starting...
+2020-12-17 16:02:39  [ http-nio-8090-exec-1:145341 ] - [ WARN ]  Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+2020-12-17 16:02:39  [ http-nio-8090-exec-1:145595 ] - [ INFO ]  HikariPool-1 - Start completed.
+2020-12-17 18:46:37  [ HikariPool-1 housekeeper:9983344 ] - [ WARN ]  HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=26m57s247ms104µs499ns).

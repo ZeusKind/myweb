@@ -1,0 +1,2 @@
+2020-12-15 10:07:57  [ http-nio-8090-exec-1:37955 ] - [ WARN ]  Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+2020-12-15 13:12:40  [ HikariPool-1 housekeeper:11121298 ] - [ WARN ]  HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h9m12s709ms867µs200ns).
